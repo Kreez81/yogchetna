@@ -58,6 +58,33 @@
 .dropbutt:focus{
   color: rgb(186, 213, 232);
 }
+.dropdown{
+  position: relative;
+  display: flex;
+  top: 7vh;
+  float: right;
+  width: 14vh;
+  background-color: rgb(113, 161, 188);
+  border-radius: 13px;
+  border-top-right-radius: 0%;
+  box-shadow: 4px 4px 15px rgb(0,0,0,0.25);
+  /* border: 2px solid black; */
+}
+ul{
+  position: relative;
+  right: 4.5vh;
+}
+li{
+  font-size: 2.9vh;
+  font-weight: 500;
+  list-style: none;
+  line-height: 5.5vh;
+  color: rgb(27, 31, 34);
+  /* color: aliceblue; */
+  text-decoration: underline 2px rgb(57, 80, 107);
+  text-underline-offset: 2px;
+}
+
 @media (max-width:370px){
   .NameH{
     margin-left: 3vh;

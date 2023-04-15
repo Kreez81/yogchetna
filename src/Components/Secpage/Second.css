@@ -1,7 +1,8 @@
 .secbody{
     height: 100vh;
     width: 100%;
-    background: linear-gradient(0deg, rgb(246, 233, 206) 0%, rgb(222, 222, 226) 100%);
+    /* background: linear-gradient(0deg, rgb(246, 233, 206) 0%, rgb(222, 222, 226) 100%); */
+    background-color: rgb(226, 221, 210);
 }
 .omimg{
     display: flex;

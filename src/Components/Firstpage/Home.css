@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.Firstbody{
+    /* background-image: url("../../Assets/pexels-max-andrey-1254736.jpg"); */
+    background-image: url("../../Assets/pexels-pixabay-531767.jpg");
+    background-size: cover;
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+}
+
+.profpic{
+    position: relative;
+    display: flex;
+    top: 16vh;
+    left: 18vh;
+    height: 41vmax;
+    border-top-left-radius: 19vh;
+    border-top-right-radius: 19vh;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.6);
+}
+.Fsecright{
+    position: relative;
+    display: block;
+    align-items: center;
+    height: 30vh;
+    top: 38vh;
+    left: 42vh;
+    font-size: 7.3vh;
+    font-weight: 600;
+    /* text-indent: 1vh; */
+    font-family: 'Rubik', sans-serif;
+}
+.name{
+    color: rgb(198, 230, 242);
+    transition: 200ms ease-in-out;
+}
+.name:hover{
+    color: aliceblue;
+}
+.profpicsq{display: none;}
+@media (max-width:370px){
+    .picsq{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 9vh;
+        min-width: 100%;
+        height: 50vh;
+    }
+    .profpic{
+        display: none;
+    }
+    .profpicsq{
+        display: flex;
+        position: relative;
+        
+        height: 37vh;
+        border-radius: 40vh;
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.6);
+    }
+    .Fsecright{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.65vh;
+        font-weight: 900;
+        font-family: 'Rubik', sans-serif;
+        color: rgb(32, 50, 63);
+        top: 59vh;
+        left: -51.3vh;
+        height: 20%;
+        min-width: 100%;
+        text-align: center;
+        line-height: 5.5vh;
+    }
+    .name{
+        color: rgb(32, 50, 63);
+    }
+}
+
+
+.imgcloud{
+    top: 80vh;
+    position: absolute;
+    left: 1.95vh;
+    background-image: url("../../Assets/cloud.png");
+    filter: brightness(93%);
+    background-size: 70vh;
+    background-repeat:round;
+    height: 35vh;
+    width: 96%;
+}

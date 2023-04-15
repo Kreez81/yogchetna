@@ -1,0 +1,25 @@
+.secbody{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgb(246, 233, 206) 0%, rgb(222, 222, 226) 100%);
+}
+.omimg{
+    display: flex;
+    position: fixed;
+    filter: brightness(130%);
+    mix-blend-mode:color-burn;
+    top: 10vh;
+    /* left: 45vh;
+    height: 85vmin;
+    width: 55vmax; */
+    left: 59vh;
+    height: 75vh;
+
+}
+@media (max-width:370px){
+    .omimg{
+        left: -14.5vh;
+        top: 5vh;
+        height: 80vh;
+    }
+}

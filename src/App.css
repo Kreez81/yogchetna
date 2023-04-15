@@ -1,0 +1,17 @@
+.Appbody{
+    height: 200vh;
+    width: 100%;
+    background-color: rgb(245, 236, 225);
+    z-index: -100;
+}
+
+/* .omimg{
+    display: flex;
+    position: absolute;
+    top: -20vh;
+    left: 70vh;
+    height: 60vh;
+    width: 30%;
+    background-image: url("./Assets/om.png");
+    background-size: cover;
+} */

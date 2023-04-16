@@ -33,6 +33,7 @@
   margin-top: 3vh;
   font-family: 'Rubik', sans-serif;
   cursor: pointer;
+  transition: 200ms ease-in-out;
 }
 .About:hover{
   color: rgb(186, 213, 232);
@@ -47,6 +48,7 @@
   margin-top: 3vh;
   font-family: 'Rubik', sans-serif;
   cursor: pointer;
+  transition: 200ms ease-in-out;
 }
 .Contact:hover{
   color: rgb(186, 213, 232);
@@ -55,21 +57,24 @@
   color: aliceblue;
   display: none;
 }
-.dropbutt:focus{
+.dropbutt:checked{
   color: rgb(186, 213, 232);
 }
 .dropdown{
   position: relative;
-  display: flex;
+  display: none;
   top: 7vh;
   float: right;
   width: 14vh;
-  background-color: rgb(113, 161, 188);
+  background-color: rgb(105, 159, 190);
   border-radius: 13px;
   border-top-right-radius: 0%;
   box-shadow: 4px 4px 15px rgb(0,0,0,0.25);
+  border-top: 1.6px rgb(204, 219, 233) solid;
+  border-right: 1.6px solid rgb(204, 219, 233);
   /* border: 2px solid black; */
 }
+
 ul{
   position: relative;
   right: 4.5vh;
@@ -78,10 +83,10 @@ li{
   font-size: 2.9vh;
   font-weight: 500;
   list-style: none;
-  line-height: 5.5vh;
-  color: rgb(27, 31, 34);
+  line-height: 5.7vh;
+  color: rgb(18, 32, 43);
   /* color: aliceblue; */
-  text-decoration: underline 2px rgb(57, 80, 107);
+  /* text-decoration: underline 2px rgb(88, 117, 150); */
   text-underline-offset: 2px;
 }
 
@@ -103,5 +108,8 @@ li{
     margin-top: 3vh;
     margin-right: 4vh;
     font-size: 3vh;
+  }
+  .dropdown{
+    display: flex;
   }
 }

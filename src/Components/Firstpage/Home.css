@@ -79,6 +79,9 @@
     .name{
         color: rgb(32, 50, 63);
     }
+    .name:hover{
+        color:rgb(32, 50, 63); 
+    }
 }
 
 

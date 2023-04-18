@@ -16,7 +16,7 @@ function Navbar() {
           openDropdown && 
           <div className='dropdown'>
               <ul>
-                <li><Link to='secpage' smooth={true} duration={800} >About</Link></li>
+                <li><Link to='secpage' smooth={true} duration={800} onClick={() => setOpenDropdown((prev) => !prev)} >About</Link></li>
                 <li>Contact</li>
               </ul>
         </div>

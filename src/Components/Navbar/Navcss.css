@@ -88,6 +88,7 @@ li{
   /* color: aliceblue; */
   /* text-decoration: underline 2px rgb(88, 117, 150); */
   text-underline-offset: 2px;
+  cursor: pointer;
 }
 
 @media (max-width:370px){

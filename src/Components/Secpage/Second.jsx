@@ -5,7 +5,9 @@ function Second() {
   return (
     <div className='secbody' id='secpage'>
        <img src={om} className="omimg" alt="logo" />
-      
+       <div>
+        
+       </div>
     </div>
   )
 }

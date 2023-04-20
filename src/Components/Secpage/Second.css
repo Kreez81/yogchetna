@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     /* background: linear-gradient(0deg, rgb(246, 233, 206) 0%, rgb(222, 222, 226) 100%); */
-    background-color: rgb(218, 225, 230);
+    background-color: rgb(86, 151, 198);
 }
 .omimg{
     display: flex;
@@ -16,6 +16,21 @@
     left: 69vh;
     height: 65vh;
 
+}
+.Tagline-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10vh;
+    height: 10vh;
+    width: 100%;
+}
+.Tagline{
+    position: relative;
+    font-size: 4.5vmin;
+    font-weight: 700;
+    font-family: 'Merienda', cursive;
 }
 @media (max-width:370px){
     .omimg{

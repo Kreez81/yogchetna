@@ -27,7 +27,7 @@
     height: 30vh;
     top: 38vh;
     left: 42vh;
-    font-size: 7.3vh;
+    font-size: 3.5vw;
     font-weight: 600;
     /* text-indent: 1vh; */
     font-family: 'Rubik', sans-serif;
@@ -62,9 +62,6 @@
         box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.6);
     }
     .Fsecright{
-        display: block;
-        justify-content: center;
-        align-items: center;
         font-size: 3.65vh;
         font-weight: 900;
         font-family: 'Rubik', sans-serif;

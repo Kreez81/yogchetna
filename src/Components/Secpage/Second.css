@@ -3,9 +3,9 @@
     width: 100%;
     /* background: linear-gradient(0deg, rgb(246, 233, 206) 0%, rgb(222, 222, 226) 100%); */
     background-color: rgb(87, 154, 202);
-    background-image: url("../../Assets/wave-haikei.svg");
-    /* background-size: cover;  */
-    background-position-y: -14.2vh;
+    background-image: url("../../Assets/layerwave2.svg");
+    background-size: cover; 
+    /* background-position-y: -11vh; */
     
 }
 .omimg{
@@ -51,7 +51,7 @@
     background-color: aliceblue;
     height: inherit;
     width: 30vmax;
-    /* left: 10vh; */
+    left: 8vh;
 }
 .imgtext1{
     position: relative;
@@ -60,7 +60,7 @@
     /* justify-content: center; */
     height: inherit;
     font-size: xx-large;
-    left: 20vh;
+    left: 25vh;
     width: 40vmax;
 }
 @media (max-width:370px){

@@ -39,6 +39,7 @@
 .firstsection{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     top: 14vh;
     left: 15vh;
     /* background-color: rgb(199, 213, 227); */
@@ -56,12 +57,15 @@
 .imgtext1{
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    text-align: center;
+    justify-content: center;
     height: inherit;
     font-size: xx-large;
     left: 25vh;
     width: 40vmax;
+    margin: 0%;
 }
 @media (max-width:370px){
     .omimg{

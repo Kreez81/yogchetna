@@ -1,0 +1,37 @@
+.Wapperbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+}
+
+.top-btn {
+  width: 6vh;
+  height: 6.7vh;
+  color: rgb(29, 28, 27);
+  background-color: aliceblue;
+  border-top-left-radius: 45%;
+  border-top-right-radius: 45%;
+  position: fixed;
+  bottom: -.8vmin;
+  right: 7vmin;
+  /* z-index: 1000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+.top-btn:hover{
+  transform: translateY(-.5vmin);
+}
+.topicon{
+  font-size: 2vh;
+}
+
+@media (max-width:370px) {
+  .top-btn {
+    display: none;
+  }
+}

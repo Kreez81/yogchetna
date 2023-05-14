@@ -14,6 +14,7 @@
     height: 40vh;
     width: 80%;
     margin-top: 10vh;
+    
     /* background-color: rgb(150, 167, 184); */
 }
 .conhead{
@@ -41,7 +42,7 @@
     height: 20vh;
     width: 50%;
     /* background-color: aliceblue; */
-    border-right: 2px solid black;
+    border-right: 3px solid black;
 }
 li{
     font-size: 2.1vh;
@@ -54,8 +55,10 @@ li a{
 }
 .icon{
     /* font-size: 25px; */
+    color:rgb(23, 50, 74);
     position: relative;
     top: 4px;
+    transition: 200ms ease-in-out;
 }
 
 .folbox{
@@ -68,6 +71,8 @@ li a{
     width: 30%;
     /* background-color: aliceblue; */
 }
-li:hover{
-    transform: translateX(2.5px);
+.social:hover .icon{
+    font-size: 23px;
+    top: 5px;
+    color: black;
 }

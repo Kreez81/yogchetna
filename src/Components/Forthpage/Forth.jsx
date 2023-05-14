@@ -6,13 +6,13 @@ function Forth() {
   return (
     <div className='forthbody' id='frtpage'>
       <section className='followmain'>
-             <header className='conhead'><strong>Contact</strong> &nbsp; and &nbsp; <strong>Follow</strong></header>
+             <header className='conhead'><strong>Contact</strong> &nbsp;&nbsp; and &nbsp;&nbsp; <strong>Follow</strong></header>
              <section className='confolbox'>
 
               <div className='conbox'>
               <ul>
                 <li><FaPhoneAlt className='icon'/>&nbsp; +91-6263757605</li>
-                <li><a href='mailto:karan.p2001hello@gmail.com' target="_blank" rel="noopener noreferrer"><MdEmail className='icon'/>&nbsp;  chetna.pawar@gmail.com</a></li>
+                <li><a href='mailto:pawarchetna0808@gmail.com' target="_blank" rel="noopener noreferrer"><MdEmail className='icon'/>&nbsp;  chetna.pawar@gmail.com</a></li>
               </ul>
              </div>
              <div className='folbox'>

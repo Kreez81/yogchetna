@@ -24,8 +24,8 @@ function Navbar() {
         }
         
         </>
-        <text className='Contact'><Link to='frtpage' smooth={true} duration={800}>Contact</Link></text>
-        <text className='About'><Link to='secpage' smooth={true} duration={1200} >About</Link></text>
+        <text className='Contact'><Link to='frtpage' smooth={true} duration={1200}>Contact</Link></text>
+        <text className='About'><Link to='secpage' smooth={true} duration={800} >About</Link></text>
     </div>
   )
 }

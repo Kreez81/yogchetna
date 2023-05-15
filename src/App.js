@@ -3,7 +3,7 @@ import Navbar from "./Components/Navbar/Navjs";
 import Home from './Components/Firstpage/Home';
 import Second from './Components/Secpage/Second';
 import Third from './Components/Thrdpage/Third';
-import Forth from './Components/Forthpage/Forth';
+import Forth from './Components/Contactpage/Forth';
 import GoToTop from './Components/Topbutt/goToTop';
 function App() {
   return (

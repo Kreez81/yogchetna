@@ -39,20 +39,21 @@
 .firstsection{
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     top: 14vh;
-    left: 15vh;
+    /* left: 15vh; */
     /* background-color: rgb(199, 213, 227); */
     height: 60vh;
-    width: 90vmax;
+    width: 90%;
+    margin-left: 10vh;
+    margin-right: 10vh;
 }
 .firstimg{
     position: relative;
     display: flex;
     background-color: aliceblue;
     height: inherit;
-    width: 30vmax;
-    left: 8vh;
+    width: 45vmax;
+    /* left: 8vh; */
 }
 .imgtext1{
     position: relative;
@@ -62,15 +63,26 @@
     text-align: center;
     justify-content: center;
     height: inherit;
-    font-size: xx-large;
-    left: 25vh;
-    width: 40vmax;
+    font-size: 3vmin;
+    /* background-color: antiquewhite; */
+    left: 5vh;
+    width: 45%;
     margin: 0%;
 }
 @media (max-width:370px){
-    .omimg{
-        left: -14.5vh;
-        top: 5vh;
-        height: 80vh;
+    .Tagline-box{
+        top: 7vh;
+    }
+    .firstsection{
+        flex-direction: column;
+        margin-left: 5vh;
+        top: 10vh;
+    }
+    .firstimg{
+        width: 90%;
+    }
+    .imgtext1{
+        width: 90%;
+        left: 0%;
     }
 }

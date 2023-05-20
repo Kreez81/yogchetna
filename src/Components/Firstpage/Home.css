@@ -9,7 +9,9 @@
     width: 100%;
     z-index: 100;
 }
-
+.mainpicsq{
+    width: 50%;
+}
 .profpic{
     position: relative;
     display: flex;
@@ -26,11 +28,15 @@
     align-items: center;
     height: 30vh;
     top: 38vh;
-    left: 42vh;
+    /* left: 42vh; */
     font-size: 3.5vw;
     font-weight: 600;
     /* text-indent: 1vh; */
     font-family: 'Rubik', sans-serif;
+}
+.containerdiv{
+    height: 90vh;
+    width: 50%;
 }
 .name{
     color: rgb(198, 230, 242);
@@ -66,10 +72,9 @@
         font-weight: 900;
         font-family: 'Rubik', sans-serif;
         color: rgb(32, 50, 63);
-        top: 59vh;
-        left: -51.3vh;
-        height: 25%;
-        min-width: 100vw;
+        top: 10vh;
+        height: 30%;
+        width: 100vw;
         text-align: center;
         line-height: 5.5vh;
     }
@@ -79,8 +84,17 @@
     .name:hover{
         color:rgb(32, 50, 63); 
     }
+    .containerdiv{
+        position: relative;
+        width: 100%;
+    }
 }
-
+@media (max-width:1670px){
+    .profpic{
+        border-bottom-left-radius: 5vh;
+        border-bottom-right-radius: 5vh;
+    }
+}
 
 .imgcloud{
     top: 80vh;

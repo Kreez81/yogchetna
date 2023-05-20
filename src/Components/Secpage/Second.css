@@ -32,7 +32,7 @@
 }
 .Tagline{
     position: relative;
-    font-size: 4.5vmin;
+    font-size: 4.6vmin;
     font-weight: 700;
     font-family: 'Merienda', cursive;
 }
@@ -72,6 +72,7 @@
 @media (max-width:370px){
     .Tagline-box{
         top: 7vh;
+        
     }
     .firstsection{
         flex-direction: column;

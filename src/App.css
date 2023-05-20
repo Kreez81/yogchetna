@@ -1,4 +1,7 @@
-
+.Appbody{
+  width: 100%;
+  overflow: hidden;
+}
 
 ::-webkit-scrollbar{
     width: .85rem;

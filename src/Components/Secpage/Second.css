@@ -50,10 +50,18 @@
 .firstimg{
     position: relative;
     display: flex;
-    background-color: aliceblue;
+    /* background-color: rgb(227, 235, 242); */
+    background: rgba(0,0,0,0.05);
+    border: 3px solid rgb(160, 192, 216);
     height: inherit;
     width: 45vmax;
+    border-radius: 5vh;
     /* left: 8vh; */
+    transition: 300ms ease-in-out;
+    box-shadow: 0 0 10px rgb(79, 138, 180);
+}
+.firstimg:hover{
+    box-shadow: 0 0 40px rgb(72, 126, 164);
 }
 .imgtext1{
     position: relative;

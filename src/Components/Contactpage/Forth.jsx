@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaPhoneAlt,FaInstagramSquare,FaYoutube,FaFacebookSquare} from "react-icons/fa";
+import {FaPhoneAlt,FaInstagramSquare,FaYoutube} from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 import './Forth.css';
 function Forth() {
@@ -18,7 +18,7 @@ function Forth() {
              <div className='folbox'>
               <ul>
                 <li className='social'><a href='https://www.instagram.com/yog.chetna/' target="_blank" rel="noopener noreferrer"><FaInstagramSquare className='icon'/>&nbsp; Instagram</a></li>
-                <li className='social'><a href='https://www.facebook.com/chetna.pawar' target="_blank" rel="noopener noreferrer"><FaFacebookSquare className='icon'/>&nbsp; Facebook</a></li>
+                {/* <li className='social'><a href='https://www.facebook.com/chetna.pawar' target="_blank" rel="noopener noreferrer"><FaFacebookSquare className='icon'/>&nbsp; Facebook</a></li> */}
                 <li className='social'><a href='https://www.youtube.com/@yogchetna' target="_blank" rel="noopener noreferrer"><FaYoutube className='icon'/>&nbsp; Youtube</a></li>
               </ul>
              </div>

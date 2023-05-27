@@ -10,7 +10,10 @@ function Second() {
        </div>
        <section className='firstsection'>
          <image className='firstimg'></image>
-         <p className='imgtext1'><strong>Certificates</strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur sequi dolor repudiandae optio adipisci hic omnis error enim asperiores accusamus. Quod sequi a hic rem asperiores, unde eum maxime iusto!</p>
+         <p className='imgtext1'><strong>Yoga Teacher Certification -</strong><br/>
+            1.&nbsp; I have completed '300 hour' Advance Ashtanga and Vinyasa Flow yoga level 2 teacher training as per guidelines & standards set by Yoga Alliance.<br/><br/>
+            2.&nbsp; I have completed '85 hours' Prenatal yoga teacher training course from Subh yoga foundation in Rishikesh.
+         </p> 
        </section>
     </div>
   )

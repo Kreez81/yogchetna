@@ -66,7 +66,7 @@
   display: none;
   top: 7vh;
   float: right;
-  width: 14vh;
+  width: 13vh;
   background-color: rgb(105, 159, 190);
   border-radius: 13px;
   border-top-right-radius: 0%;
@@ -78,17 +78,18 @@
 
 .dropdown ul{
   position: relative;
-  right: 4.5vh;
+  right: 4.3vh;
   list-style: none;
 }
-li{
-  font-size: 2.9vh;
+.dropdown li{
+  font-size: 2.65vh;
   font-weight: 500;
-  line-height: 5.7vh;
+  line-height: 5.6vh;
   color: rgb(18, 32, 43);
+  /* margin-bottom: 2px; */
   /* color: aliceblue; */
   /* text-decoration: underline 2px rgb(88, 117, 150); */
-  text-underline-offset: 2px;
+  /* text-underline-offset: 2px; */
   cursor: pointer;
 }
 

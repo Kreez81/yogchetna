@@ -6,6 +6,7 @@ import img3 from "../../Assets/class/img3.jpg";
 import img4 from "../../Assets/class/img4.jpg";
 import img5 from "../../Assets/class/img5.jpg";
 import img6 from "../../Assets/class/img6.jpg";
+import yogapose from "../../Assets/buddhist-yoga-pose.png";
 
 function Third() {
   return (
@@ -23,12 +24,12 @@ function Third() {
       </div>
       <div className='Classtext'>
           <text className='Ctextbox'>
-            <ul>
-              <li>I take both online and offline yoga classes.</li>
-              <li>I take both online and offline yoga classes.</li>
-              <li>I take both online and offline yoga classes.</li>
-            </ul>
-            {/* I take both online and offline yoga classes. */}
+            Join my yoga classes and experience the benefits of yoga for yourself! <br/>
+            These classes are designed for all levels, so whether you're a beginner or a seasoned pro, you're sure to find a class that's right for you.<br/>
+            Our classes are held in a relaxed and welcoming environment, so you can relax and enjoy your practice.<br/>
+            I offer both online and offline classes, so you can choose the format that best suits you.<br/>
+            Contact today and start your journey to a healthier, happier you!<br/>
+            <img src={yogapose} alt='yog' className='yogapose'/>
           </text>
       </div>
     </div>

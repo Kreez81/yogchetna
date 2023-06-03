@@ -1,5 +1,5 @@
 .thrdbody{
-    height: 95vh;
+    height: 90vh;
     width: 100%;
     background-color: #bdd0e7;
 }
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 4vh;
+    top: 3vh;
     height: 10vh;
     width: 100%;
     font-size: 4.6vmin;

@@ -1,5 +1,5 @@
 .secbody{
-    height: 100vh;
+    height: 105vh;
     width: 100%;
     /* background: linear-gradient(0deg, rgb(246, 233, 206) 0%, rgb(222, 222, 226) 100%); */
     background-color: rgb(87, 154, 202);
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 9vh;
+    top: 11vh;
     height: 10vh;
     width: 100%;
 }
@@ -39,63 +39,119 @@
 .firstsection{
     position: relative;
     display: flex;
-    top: 14vh;
+    justify-content: space-evenly;
+    gap: 5vh;
+    top: 15vh;
     /* left: 15vh; */
     /* background-color: rgb(199, 213, 227); */
-    height: 60vh;
-    width: 90%;
-    margin-left: 10vh;
-    margin-right: 10vh;
+    height: 50vh;
+    /* width: 90%; */
+    margin-left: 20vmin;
+    margin-right: 20vmin;
 }
 .firstimg{
     position: relative;
     display: flex;
-    /* background-color: rgb(227, 235, 242); */
-    background: rgba(0,0,0,0.05);
-    border: 3px solid rgb(160, 192, 216);
-    height: inherit;
-    width: 45vmax;
-    border-radius: 5vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(117, 169, 215);
+    /* background: rgba(0, 0, 0, 0.05); */
+    border: 2px solid rgb(177, 206, 229);
+    height: 45vmin;
+    width: 30vmax;
+    border-radius: 4vh;
     /* left: 8vh; */
-    transition: 300ms ease-in-out;
-    box-shadow: 0 0 10px rgb(79, 138, 180);
+    transition: 350ms ease-in-out;
+    cursor: pointer;
 }
+
 .firstimg:hover{
-    box-shadow: 0 0 40px rgb(72, 126, 164);
+    box-shadow: 0 0 40px rgb(52, 115, 154);
 }
-.imgtext1{
+.firstimg:hover .imgcerti{
+    height: 32vmin;
+}
+.firstimg h2{
+    padding-left: 6%;
+    position: absolute;
+    display: flex;
+    z-index: 100;
+    top: 5vmin;
+    left: -1vh;
+    font-size: 3.8vh;
+    color:aliceblue ;
+    transition: 350ms ease-in-out;
+}
+.firstimg:hover h2{
+    font-size: 4.1vh;
+    color: rgb(25, 49, 65);
+}
+
+.firstimg p{
+    display: flex;
+    position: relative;
+    top: -1vh;
+    padding: 6%;
+    font-size: 2.08vh;
+    /* line-height: 150%; */
+    font-family: "rubik",sans-serif;
+}
+.imgcerti{
+    height: 35vmin;
+    align-self: center;
+    border-radius: 2vh;
+    transition: 300ms ease-in-out;
+}
+/* .imgcerti:nth-child(2){
+    filter: brightness(87%);
+} */
+.certiLine{
     position: relative;
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
     justify-content: center;
-    height: inherit;
-    font-size: 2.5vh;
+    align-items: center;
+    text-align: center;
+    top: 16vh;
+    margin-left: 10vmax;
+    margin-right: 10vmax;
+    /* font-family: "rubik",sans-serif; */
+    font-size: 2.4vh;
     font-weight: 500;
-    color: rgb(32, 41, 42);
-    /* background-color: antiquewhite; */
-    left: 10vh;
-    width: 40%;
-    margin: 0%;
+}
+.meditation{
+    position: relative;
+    width: 5vh;
+    height: 5vh;
 }
 @media (max-width:370px){
+    .secbody{
+        height: 120vh;
+    }
     .Tagline-box{
         top: 7vh;
         
     }
     .firstsection{
         flex-direction: column;
-        margin-left: 5vh;
-        top: 10vh;
+        top: 12vh;
+        height: 55vh;
     }
     .firstimg{
-        width: 90%;
-        box-shadow: 0 0 40px rgb(79, 118, 158);
+        width: 100%;
+        box-shadow: 0 0 40px rgb(52, 115, 154);
     }
-    .imgtext1{
-        top: 2vh;
-        width: 90%;
-        left: 0%;
+    .firstimg h2{
+        display: none;
+    }
+    .firstimg p{
+        top: -2vh;
+        font-size: 1.75vh;
+    }
+    .certiLine{
+        margin-left: 8vmax;
+        margin-right: 8vmax;
         font-size: 1.85vh;
         font-weight: 400;
     }

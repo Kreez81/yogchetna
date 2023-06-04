@@ -70,7 +70,7 @@
     box-shadow: 0 0 40px rgb(52, 115, 154);
 }
 .firstimg:hover .imgcerti{
-    height: 32vmin;
+    height: 33vmin;
 }
 .firstimg h2{
     padding-left: 6%;
@@ -150,9 +150,12 @@
         font-size: 1.75vh;
     }
     .certiLine{
-        margin-left: 8vmax;
-        margin-right: 8vmax;
+        margin-left: 5vmax;
+        margin-right: 5vmax;
         font-size: 1.85vh;
         font-weight: 400;
+    }
+    .firstimg:hover .imgcerti{
+        height: 34vmin;
     }
 }

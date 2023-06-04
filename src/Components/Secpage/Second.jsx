@@ -52,10 +52,9 @@ function Second() {
 
       <section className="certiLine" ref={myRef}
         style={{
-          transform: isInView ? "none" : "translateY(60px)",
+          transform: isInView ? "none" : "translateY(50px)",
           opacity: isInView ? 1 : 0,
-          transition: "all 0.9s  0.5s ",
-          transitionDelay: 1500,
+          transition: "all 0.5s  0.5s ",
         }}
       >
         These certifications are from accredited schools and programs,

@@ -1,4 +1,4 @@
-import React from 'react'
+import { motion } from "framer-motion";
 import "./Home.css";
 import profile from "../../Assets/profileyc.jpg"
 import profilesq from "../../Assets/profilesq.jpg"
@@ -10,11 +10,15 @@ function Home() {
           <div className='containerdiv'>
           <section className='picsq'><img src={profilesq} alt='profilesq' className='profpicsq'/></section>
           
-          <text className='Fsecright' >
+          <motion.text className='Fsecright'
+          initial = {{ y: 45, opacity: 0 }}
+          animate = {{ y: 0, opacity: 1 }}
+          transition={{ duration: 1, delay: 1.5 }}
+          >
           Hello,<br/>
           My name is <span className='name'>Chetna Pawar.</span><br/>
           I am a Certified Yoga<br/> Instructor.<br/>
-          </text>
+          </motion.text>
           </div>
           
          <div className='imgcloud'></div>

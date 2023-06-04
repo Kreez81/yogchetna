@@ -17,7 +17,7 @@ function Navbar() {
         <AnimatePresence>
           {openDropdown &&
             <motion.div
-            key="Box"
+              key="Box"
               initial={{ y: -20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -20, opacity: 0 }}

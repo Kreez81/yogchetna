@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-import { useState } from "react";
+import { motion, useInView } from "framer-motion";
+import { useState, useRef } from "react";
 import ycLcerti from "../../Assets/ycLcerti.jpeg"
 import ycRcerti from "../../Assets/ycRcerti.jpg"
 import meditation from "../../Assets/meditation.png";
@@ -16,6 +16,9 @@ function Second() {
     animate: { opacity: 1 },
     transition: { duration: 1 },
   }
+  const myRef = useRef(null);
+  const isInView = useInView(myRef, { once: true });
+
 
   return (
     <div className='secbody' id='secpage'>
@@ -30,7 +33,7 @@ function Second() {
 
           {!isTitle && <motion.h2 >Advance Ashtanga</motion.h2>}
           <motion.img className="imgcerti" src={ycLcerti} alt="" />
-          {isLOpen && (<motion.div { ...boxAnimation } >
+          {isLOpen && (<motion.div {...boxAnimation} >
             <p> I have completed '300 hour' Advance Ashtanga and Vinyasa Flow yoga level 2 teacher training as per guidelines & standards set by Yoga Alliance.</p>
           </motion.div>)}
 
@@ -39,7 +42,7 @@ function Second() {
 
           {!isTitle2 && <motion.h2 >Prenatal Yoga</motion.h2>}
           <motion.img className="imgcerti" src={ycRcerti} alt="" />
-          {isROpen && (<motion.div { ...boxAnimation } >
+          {isROpen && (<motion.div {...boxAnimation} >
             <p> I have completed '85 hours' Prenatal yoga teacher training course from Subh yoga foundation in Rishikesh.</p>
           </motion.div>)}
 
@@ -47,10 +50,18 @@ function Second() {
       </section>
 
 
-      <text className="certiLine">These certifications are from accredited schools and programs,
+      <section className="certiLine" ref={myRef}
+        style={{
+          transform: isInView ? "none" : "translateY(60px)",
+          opacity: isInView ? 1 : 0,
+          transition: "all 0.9s  0.5s ",
+          transitionDelay: 1500,
+        }}
+      >
+        These certifications are from accredited schools and programs,
         and they have prepared me to teach yoga safely and effectively.
         I am confident that I can help you reach your yoga goals.
-        <img className="meditation" src={meditation} alt="" /></text>
+        <img className="meditation" src={meditation} alt="" /></section>
     </div>
   )
 }

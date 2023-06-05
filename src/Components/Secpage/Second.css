@@ -8,19 +8,6 @@
     /* background-position-y: -11vh; */
     
 }
-.omimg{
-    display: flex;
-    position: fixed;
-    filter: brightness(130%);
-    mix-blend-mode:color-burn;
-    top: 8vh;
-    /* left: 45vh;
-    height: 85vmin;
-    width: 55vmax; */
-    left: 69vh;
-    height: 65vh;
-
-}
 .Tagline-box{
     position: relative;
     display: flex;
@@ -123,6 +110,7 @@
 }
 .meditation{
     position: relative;
+    top: 1vh;
     width: 5vh;
     height: 5vh;
 }

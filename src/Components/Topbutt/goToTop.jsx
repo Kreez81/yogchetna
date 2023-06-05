@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 import {FaChevronUp} from "react-icons/fa";
 import "./goToTop.css";
 
@@ -27,11 +28,15 @@ const GoToTop = () => {
     
     <div className="Wapperbtn" >
       {isVisible && (
-        <div className="top-btn" onClick={goToBtn}>
+        <motion.div className="top-btn" onClick={goToBtn}
+        initial={{ y: 55, opacity: 0 }}
+          animate={{ y: 0, opacity: 1}}
+          transition={{ ease:"linear" }}
+        >
          
           <FaChevronUp className="topicon"/>
           
-        </div>
+        </motion.div>
       )}
     </div>
   );

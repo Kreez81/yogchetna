@@ -6,7 +6,7 @@ import img3 from "../../Assets/class/img3.jpg";
 import img4 from "../../Assets/class/img4.jpg";
 import img5 from "../../Assets/class/img5.jpg";
 import img6 from "../../Assets/class/img6.jpg";
-import yogapose from "../../Assets/buddhist-yoga-pose.png";
+import yogapose from "../../Assets/yoga.png";
 import { useInView } from 'framer-motion';
 
 function Third() {

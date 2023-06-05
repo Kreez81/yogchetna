@@ -88,6 +88,9 @@
         position: relative;
         width: 100%;
     }
+    .omimg{
+        display: none;
+    }
 }
 @media (max-width:1670px){
     .profpic{
@@ -107,3 +110,18 @@
     height: 35vh;
     width: 96%;
 }
+/* .omimg{
+    position: absolute;
+    filter:brightness(0);
+    height: 6vh;
+    animation: cursorAnim 15s infinite linear ;
+}
+
+@keyframes cursorAnim {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */

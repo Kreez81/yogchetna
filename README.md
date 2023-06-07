@@ -1,6 +1,6 @@
 # This is a Yoga Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is live = "https://yogchetna.netlify.app/"
 
 ## Available Scripts
 

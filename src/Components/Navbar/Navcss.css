@@ -20,6 +20,7 @@
   margin-top: 2.2vh;
   border: none;
   color: aliceblue;
+  text-decoration: none;
   cursor: pointer;
   background-color: transparent;
 }
@@ -39,7 +40,7 @@
 .About:hover{
   color: rgb(186, 213, 232);
 }
-.Contact{
+.Classes{
   float: right;
   font-size: 3.25vh;
   font-weight: 600;
@@ -51,7 +52,7 @@
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
-.Contact:hover{
+.Classes:hover{
   color: rgb(186, 213, 232);
 }
 .dropbutt{
@@ -102,7 +103,7 @@
   .About{
      display: none;
   }
-  .Contact{
+  .Classes{
     display: none;
   }
   .dropbutt{

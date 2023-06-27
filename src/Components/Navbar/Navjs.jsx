@@ -26,13 +26,13 @@ function Navbar() {
               className='dropdown'>
               <ul>
                 <li><Link to='secpage' smooth={true} duration={800} onClick={() => setOpenDropdown((prev) => !prev)} >About</Link></li>
-                <li><Link to='frtpage' smooth={true} duration={1000} onClick={() => setOpenDropdown((prev) => !prev)}>Contact</Link></li>
+                <li><Link to='frtpage' smooth={true} duration={1000} onClick={() => setOpenDropdown((prev) => !prev)}>Classes</Link></li>
               </ul>
             </motion.div>
           }
         </AnimatePresence>
       </>
-      <text className='Contact'><Link to='frtpage' smooth={true} duration={1200}>Contact</Link></text>
+      <text className='Classes'><Link to='frtpage' smooth={true} duration={1200}>Classes</Link></text>
       <text className='About'><Link to='secpage' smooth={true} duration={800} >About</Link></text>
     </div>
   )

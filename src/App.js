@@ -1,21 +1,18 @@
 import './App.css';
-import Navbar from "./Components/Navbar/Navjs";
-import Home from './Components/Firstpage/Home';
-import Second from './Components/Secpage/Second';
-import Third from './Components/Thrdpage/Third';
-import Forth from './Components/Contactpage/Forth';
-import GoToTop from './Components/Topbutt/goToTop';
+import Appmain from './Appmain';
+import { Routes, Route, useLocation } from "react-router-dom";
+import Contact from './Components/Contactpage/Contact';
+
 function App() {
+  const location = useLocation();
 
   return (
-   <div className='Appbody'>
-   <Navbar/>
-   <GoToTop/>
-   <Home />
-   <Second />
-   <Third />
-   <Forth />
-   </div>
+    <div className='Appbody'>
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<Appmain />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+    </div>
   );
 }
 

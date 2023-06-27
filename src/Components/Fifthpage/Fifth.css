@@ -1,0 +1,76 @@
+.fifthbody {
+    height: 40vh;
+    width: 100%;
+    background-color: #d3e5ee;
+    background-image: url("../../Assets/wavelayer.svg");
+    background-size: cover;
+}
+
+.fbodymain {
+    position: relative;
+    top: 20vh;
+}
+
+.social-icons {
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    margin-top: 5px;
+    /* background-color: #92a2ab; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons div {
+    height: 5vh;
+    width: 5vh;
+    font-size: 2.2vh;
+    background-color: #bfdbe7;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(36, 30, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 200ms ease-in-out;
+}
+
+.social-icons div:hover {
+    background-color: #d8e9f2;
+    cursor: pointer;
+}
+
+.signup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7vh;
+    font-weight: 500;
+}
+
+.signup div:nth-child(2):hover {
+    text-decoration: 1px underline solid rgb(163, 165, 166);
+}
+
+@media (max-width:370px) {
+    .fifthbody {
+        height: 35vh;
+    }
+
+    .fbodymain {
+        top: 8vh;
+    }
+
+    .social-icons div {
+        height: 4vh;
+        width: 4vh;
+    }
+     .signup {
+        margin-top: 2.5vh;
+        font-size: 1.36vh;
+        justify-content: space-evenly;
+        gap: 10vh;
+    }
+}

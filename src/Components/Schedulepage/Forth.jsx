@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaExternalLinkAlt } from "react-icons/fa";
 import medi2 from "../../Assets/meditation1.png";
 import './Forth.css';

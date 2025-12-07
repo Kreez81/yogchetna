@@ -1,13 +1,11 @@
 .secbody{
-    height: 105vh;
+    min-height: 105vh;
     width: 100%;
-    /* background: linear-gradient(0deg, rgb(246, 233, 206) 0%, rgb(222, 222, 226) 100%); */
     background-color: rgb(87, 154, 202);
     background-image: url("../../Assets/layerwave2.svg");
     background-size: cover; 
-    /* background-position-y: -11vh; */
-    
 }
+
 .Tagline-box{
     position: relative;
     display: flex;
@@ -17,25 +15,24 @@
     height: 10vh;
     width: 100%;
 }
+
 .Tagline{
     position: relative;
     font-size: 4.6vmin;
     font-weight: 700;
     font-family: 'Merienda', cursive;
 }
+
 .firstsection{
     position: relative;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4vh;
     top: 15vh;
-    /* left: 15vh; */
-    /* background-color: rgb(199, 213, 227); */
-    height: 50vh;
-    /* width: 90%; */
     margin-left: 20vmin;
     margin-right: 20vmin;
 }
+
 .firstimg{
     position: relative;
     display: flex;
@@ -43,12 +40,9 @@
     justify-content: center;
     text-align: center;
     background-color: rgb(117, 169, 215);
-    /* background: rgba(0, 0, 0, 0.05); */
     border: 2px solid rgb(177, 206, 229);
-    height: 45vmin;
-    width: 30vmax;
+    height: 38vmin;
     border-radius: 4vh;
-    /* left: 8vh; */
     transition: 350ms ease-in-out;
     cursor: pointer;
 }
@@ -56,9 +50,11 @@
 .firstimg:hover{
     box-shadow: 0 0 40px rgb(52, 115, 154);
 }
+
 .firstimg:hover .imgcerti{
-    height: 33vmin;
+    height: 28vmin;
 }
+
 .firstimg h2{
     padding-left: 6%;
     position: absolute;
@@ -67,9 +63,10 @@
     top: 5vmin;
     left: -1vh;
     font-size: 3.8vh;
-    color:aliceblue ;
+    color: aliceblue;
     transition: 350ms ease-in-out;
 }
+
 .firstimg:hover h2{
     font-size: 4.1vh;
     color: rgb(25, 49, 65);
@@ -81,19 +78,17 @@
     top: -1vh;
     padding: 6%;
     font-size: 2.08vh;
-    /* line-height: 150%; */
-    font-family: "rubik",sans-serif;
+    font-family: "rubik", sans-serif;
 }
+
 .imgcerti{
-    height: 35vmin;
+    height: 30vh;
     align-self: center;
     border-radius: 2vh;
     transition: 300ms ease-in-out;
     filter: brightness(87%);
 }
-/* .imgcerti:nth-child(2){
-    filter: brightness(87%);
-} */
+
 .certiLine{
     position: relative;
     display: flex;
@@ -101,50 +96,75 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    top: 16vh;
+    top: 20vh;
     margin-left: 10vmax;
     margin-right: 10vmax;
-    /* font-family: "rubik",sans-serif; */
     font-size: 2.4vh;
     font-weight: 500;
 }
+
 .meditation{
     position: relative;
     top: 1vh;
     width: 5vh;
     height: 5vh;
 }
-@media (max-width:370px){
-    .secbody{
-        height: 120vh;
+
+/* Tablet view */
+@media (max-width: 768px){
+    .firstsection{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10vmin;
+        margin-right: 10vmin;
+        gap: 3vh;
     }
+    
+    .firstimg{
+        height: 35vmin;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 370px){
+    .secbody{
+        min-height: 170vh;
+    }
+    
     .Tagline-box{
         top: 7vh;
-        
     }
+    
     .firstsection{
-        flex-direction: column;
+        grid-template-columns: 1fr;
         top: 12vh;
-        height: 55vh;
+        height: auto;
+        gap: 2vh;
     }
+    
     .firstimg{
         width: 100%;
+        height: auto;
+        /* min-height: 300px; */
         box-shadow: 0 0 40px rgb(52, 115, 154);
     }
+    
     .firstimg h2{
         display: none;
     }
+    
     .firstimg p{
         top: -2vh;
         font-size: 1.75vh;
     }
+    
     .certiLine{
         margin-left: 5vmax;
         margin-right: 5vmax;
         font-size: 1.85vh;
         font-weight: 400;
     }
+    
     .firstimg:hover .imgcerti{
-        height: 34vmin;
+        height: 28vmin;
     }
 }
